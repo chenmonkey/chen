@@ -1,0 +1,47 @@
+#img1label{
+	position:absolute;
+	width:230px;
+	height:160px;
+	background:black;
+	opacity:0.75;
+	text-align:center;
+	display:none;
+}
+#img1label span{
+	display:inline-block;
+	margin-top:50px;
+	size:14px;
+}
+#img1:hover #img1label{
+	display:block;
+	
+}
+#img2:hover #img1label{
+	display:block;
+	
+}
+#img3:hover #img1label{
+	display:block;
+	
+}
+
+#news-link ul li a{
+	color:black;
+}
+#news-link ul li span{
+	float:right;
+	margin-right:2px;
+}
+#news-link ul li a:hover{
+	color:green;
+}
+
+#linker2{
+	padding-left:8px;
+	padding-top:3px;
+	
+}
+#linker2 a{
+	font-size:14px;
+	text-decoration:underline;
+}
